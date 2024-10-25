@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickeasy Login</title>
+    <style>
+        body{
+            background-color: rgb(160, 202, 239);
+        }
+        .login-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            /* border: darkblue ; */
+            border-radius: 5px;
+            background-color: darkblue ;
+            color: aliceblue;
+            padding-top: 150px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            border: 3px solid black;
+            border-radius: 3px;
+            margin: auto;
+        }
+        button {
+            background-color: greenyellow;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <fieldset>
+            <legend>Pickeasy Login</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Sign In</button>
+        </fieldset>
+    </div>
+</body>
+</html>

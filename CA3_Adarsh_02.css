@@ -1,0 +1,88 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    background-color: #212529; /* Dark gray header */
+    color: white;
+    padding: 20px 40px;
+    display: flex; /* Flexbox layout for horizontal alignment */
+    justify-content: space-between; /* Items evenly spaced */
+    align-items: center; /* Items vertically aligned */
+    border-radius: 6px;
+}
+
+.navigation {
+    display: flex;
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold; /* Bold navigation links */
+}
+
+.nav-link:hover {
+    background-color: rgb(169, 50, 50); /* Subtle hover effect */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link.active { /* Style for active navigation link */
+    border-bottom: 2px solid #fff; /* Underline */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Light border */
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-icon {
+    font-size: 1.2em; /* Slightly larger icon */
+}
+
+.user-actions {
+    display: flex;
+}
+
+.user-icon,
+.cart-icon {
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+.main {
+    text-align: center; /* Center the hero image horizontally */
+}
+
+#hero-image {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+a{
+    color: white;
+}
+/* Media queries for responsive design (adjust breakpoints as needed) */
+footer{
+    background-color: rgb(75, 73, 73);
+    align-items: center;
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: none;
+}
+footer a{
+    color: whitesmoke;
+    background-color: rgb(75, 73, 73);
+    padding: 55px;
+    text-decoration: none;
+    padding-inline-start: 105px;
+}
